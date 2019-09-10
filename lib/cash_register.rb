@@ -22,6 +22,8 @@ class CashRegister
     discount_decimal = @discount / 100
     total_discount = @total * discount_decimal
     @total -= total_discount
+    puts "Success! Your new total is #{@total}!"
+    @total
   end
 
 
