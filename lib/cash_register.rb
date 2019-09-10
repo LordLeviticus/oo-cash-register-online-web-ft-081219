@@ -18,7 +18,7 @@ class CashRegister
     @last_transaction_amount = (price * quantity)
   end
   
-
+  
 
 
 end
