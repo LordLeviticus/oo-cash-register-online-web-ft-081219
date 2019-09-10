@@ -18,13 +18,7 @@ class CashRegister
     @last_transaction_amount = (price * quantity)
   end
   
-  def apply_discount
-    discount_decimal = @discount / 100
-    total_discount = @total * discount_decimal
-    @total -= total_discount
-    puts "After the discount, the total comes to #{@total}."
-    @total
-  end
+  
 
 
 end
