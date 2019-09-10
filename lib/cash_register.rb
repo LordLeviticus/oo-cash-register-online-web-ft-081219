@@ -18,7 +18,8 @@ class CashRegister
     @last_transaction_amount = (price * quantity)
   end
   
-  
+  def apply_discount
+    
 
 
 end
